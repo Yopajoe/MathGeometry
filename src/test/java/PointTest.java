@@ -12,7 +12,7 @@ public class PointTest {
     @BeforeAll
     static void initAll(){
         A = new Point(3.0d,4.0d);
-        B = new Point(2.0d,6.0d);
+        B = new Point(3.0d,6.0d);
     }
 
     @AfterEach
