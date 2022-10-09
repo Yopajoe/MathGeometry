@@ -1,0 +1,6 @@
+1. Napisati jedincne testove za klasu Line kojim se provera osnovna funkcionalost metoda.
+
+2. Za metode koje ispaljuju izeztke ispitati takve slucajeve koristeci try/catch blokove.
+   Ukoliko se try blok uspesno zavrsi, onda je test neuspesan i u tom slucaju potrebno
+   na kraju bloka pozvati metodu Assertions.fail(). Nasuprot slucaju ispaljivanja
+   izuzetka, kada je test uspesan, na standardnom izlazu ispiati sadrzaj poziva metode getMessage().
