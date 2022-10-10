@@ -55,12 +55,12 @@ public class Line {
     }
 
     public Line getPerpendicularLine(Point _point){
-        return new Line(-1/k, _point.getY()-k*_point.getX());
+        return new Line(-1/k, _point.getY()+(_point.getX()/k));
     }
 
     public Point getPointOfIntersection(Line _line) throws MathGeometryException {
         if(k==_line.k) throw new MathGeometryException(this,_line);
-        double x = (k-_line.k)/ (_line.n-n);
+        double x = (_line.n-n)/(k-_line.k) ;
         double y = k*x+n;
         return new Point(x,y);
     }

@@ -1,0 +1,33 @@
+
+===============ZADATAK ZA PRVU PROVERU ZNANJA=======================================
+
+1. Napisati jedincne testove za klasu Line kojim se provera osnovna funkcionalost metoda.
+   Za testiranje koristiti staticke metode klase Assertions: assertEquals, assertTrue i fail
+   Kad testirate tacki ili pravu za ocekivanje vrednosti morate da prodjete kroz sva polja posebno.
+   Tj. za tacku B(3,4) morate da pozovate jedan assertEquals za koeficijent, drugi za
+
+      a) U test klasi definisati staticka polja:
+            Tacke:
+               //(x,y)
+                A(0.0,2.0*sqrt(2.0)),
+                B(3.0,5.0)
+            Prave:
+                //(k,n)
+                a( -0.5, 6.5 )
+                b( 1.0 , -2.0*sqrt(2.0))
+                c( 1.5, , -1.5)
+
+      b) Ispitati tacnost da B pripada a (koristi assertTrue)
+      c) Ispitati da je prava d(2.0, -1.0) rezultat metode getPerpendicularLine prave "a" od argumenta tacke B
+      d) Ispitati da je tacka (4.0,4.5) tacka preseka prave a i c.
+      e) Ipsitati da je rastojanje tacke A od prave b jednako 4.0
+
+
+
+
+2. Za metodu getPointDistance ispitati slucaj ispaljivanja izuzetka MathGeometryException.
+   U test metodi koristi try/catch blokove. Ukoliko se try blok uspesno zavrsi,
+   onda je test neuspesan i u tom slucaju potrebno na kraju bloka pozvati metodu Assertions.fail().
+   U slucaju ispaljivanja izuzetka, kada je test uspesan, na standardnom izlazu ispisati sadrzaj poziva metode getMessage().
+
+3. Tesirati metodu za getPerpendicularCoefficient za pravu (0,3)

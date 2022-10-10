@@ -12,7 +12,7 @@ public class MathGeometryException extends  Exception{
         if(line1.getCoefficient()==line2.getCoefficient())
             msg+=" imaju beskonacno mnogo resenja!";
         else
-            msg+= " nemaju zajednickih resenja!";
+            msg+=" nemaju zajednickih resenja!";
     }
 
 

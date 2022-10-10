@@ -3,7 +3,7 @@ import org.etsntesla.it.math.Point;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+@Disabled
 public class PointTest {
 
     static Point A,B;
