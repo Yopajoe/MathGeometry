@@ -1,10 +1,10 @@
 
 ===============ZADATAK ZA PRVU PROVERU ZNANJA=======================================
 
-1. Napisati jedincne testove za klasu Line kojim se provera osnovna funkcionalost metoda.
+1. Napisati jedincne testove za klasu Line kojima se provera osnovna funkcionalost metoda.
    Za testiranje koristiti staticke metode klase Assertions: assertEquals, assertTrue i fail
-   Kad testirate tacki ili pravu za ocekivanje vrednosti morate da prodjete kroz sva polja posebno.
-   Tj. za tacku B(3,4) morate da pozovate jedan assertEquals za koeficijent, drugi za
+   Kad testirate tacku ili pravu za ocekivane vrednosti morate da ispitate svako polje posebno.
+   Tj. za tacku B(3,4) morate da pozovate jedan assertEquals za koeficijent, drugi za nagib
 
       a) U test klasi definisati staticka polja:
             Tacke:
