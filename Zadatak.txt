@@ -25,7 +25,7 @@
 
 
 
-2. Za metodu getPointDistance ispitati slucaj ispaljivanja izuzetka MathGeometryException.
+2. Za metodu getPointOfIntersection ispitati slucaj ispaljivanja izuzetka MathGeometryException.
    U test metodi koristi try/catch blokove. Ukoliko se try blok uspesno zavrsi,
    onda je test neuspesan i u tom slucaju potrebno na kraju bloka pozvati metodu Assertions.fail().
    U slucaju ispaljivanja izuzetka, kada je test uspesan, na standardnom izlazu ispisati sadrzaj poziva metode getMessage().
